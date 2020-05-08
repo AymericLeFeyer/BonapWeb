@@ -3,6 +3,8 @@ import React from "react";
 import logo from "./res/logo.png";
 import flutter from "./res/flutter.png";
 import firebase from "./res/firebase.png";
+import playStore from "./res/playStore.png";
+import instagram from "./res/instagram.png";
 
 import "./components/App.css";
 import "./bootstrap.min.css";
@@ -12,8 +14,16 @@ import Fade from "react-reveal/Fade";
 
 import Wow from "react-wow";
 
+import Tilt from "react-tilt";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faQuoteRight, faCode } from "@fortawesome/free-solid-svg-icons";
+import {
+  faQuoteRight,
+  faCode,
+  faList,
+  faSignInAlt,
+  faUserFriends,
+} from "@fortawesome/free-solid-svg-icons";
 
 import { Grid, Paper } from "@material-ui/core";
 
@@ -35,18 +45,20 @@ function Authors() {
 
 function Title(props) {
   return (
-    <Wow animation={props.anim}>
-      <h1 className="title">
-        <FontAwesomeIcon className="icone" icon={props.icon} />
-        {props.title}
-      </h1>
+    <Wow animation="pulse">
+      <Paper className="paperTitle">
+        <h1 className="title">
+          <FontAwesomeIcon className="icone" icon={props.icon} />
+          {props.title}
+        </h1>
+      </Paper>
     </Wow>
   );
 }
 
 function Content(props) {
   return (
-    <Wow animation={props.anim}>
+    <Wow animation="fadeInUp">
       <p className="content">
         {props.content.map((c) => {
           return <p>{c}</p>;
@@ -63,14 +75,22 @@ function Technos(props) {
         return (
           <Grid item xs>
             <Wow animation={techno.anim}>
-              <Paper>
-                <img src={techno.source} alt={techno.alt} />
-              </Paper>
+              <img src={techno.source} alt={techno.alt} />
             </Wow>
           </Grid>
         );
       })}
     </Grid>
+  );
+}
+
+function Link(props) {
+  return (
+    <Tilt className="Tilt" options={{ max: 25 }}>
+      <a target="_blank" href={props.link}>
+        <img src={props.src} alt={props.alt} className="imgLink" />
+      </a>
+    </Tilt>
   );
 }
 
@@ -81,20 +101,39 @@ function App() {
         <Authors />
       </header>
 
-      <Title title="Introduction" icon={faQuoteRight} anim="fadeInUp" />
+      <Title title="Introduction" icon={faQuoteRight} />
 
       <Content
-        anim="lightSpeedIn"
         content={[
           "Bonap est un gestionnaire de repas intelligent",
           "C'est avant tout le projet de fin d'étude de deux étudiants de licence informatique en 2020.",
         ]}
       />
 
-      <Title title="Technologies" icon={faCode} anim="fadeInUp" />
+      <Title title="Fonctionalitées" icon={faList} />
 
       <Content
-        anim="lightSpeedIn"
+        content={[
+          "Creez vos ingredients et repas personalises",
+          "Creez votre menu de la semaine",
+          "Generez votre liste de course",
+          "Bonap !",
+        ]}
+      />
+
+      <Title title="Connexion" icon={faSignInAlt} />
+
+      <Content
+        content={[
+          "Connectez vous a Bonap en vous creant un compte",
+          "Vous pouvez aussi utiliser votre compte Google !",
+          "Cela vous permettra de sauvegarder vos repas et ingredients sur le cloud",
+        ]}
+      />
+
+      <Title title="Technologies" icon={faCode} />
+
+      <Content
         content={[
           "Bonap est une application mobile utilisant le framework hybride de Google, Flutter.",
           "Nous sauvegardons les données des utilisateurs qui ont créé un compte grâce à Firebase.",
@@ -115,6 +154,33 @@ function App() {
           },
         ]}
       />
+
+      <Title title="Retrouve nous !" icon={faUserFriends} />
+
+      <Content
+        anim="lightSpeedIn"
+        content={[
+          "Bonap est disponible sur le Play Store",
+          "L'application possede egalement sa page Instagram",
+        ]}
+      />
+
+      <Grid container className="links">
+        <Grid item xs>
+          <Link
+            link="https://www.instagram.com/itsbonap/?hl=fr"
+            alt="Instagram"
+            src={instagram}
+          />
+        </Grid>
+        <Grid item xs>
+          <Link
+            link="https://play.google.com/store/apps/details?id=com.stelapix.bonap&hl=fr"
+            alt="Play Store"
+            src={playStore}
+          />
+        </Grid>
+      </Grid>
     </div>
   );
 }

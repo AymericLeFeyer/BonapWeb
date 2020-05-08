@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  padding-bottom: 100px;
+  background-image: url("../res/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .App-logo {
@@ -76,4 +81,19 @@ p.content {
 .tab-technos img {
   width: 70%;
   margin: 5px;
+}
+
+.links {
+  padding-left: 20%;
+  padding-right: 20%;
+  align-items: center;
+}
+
+.imgLink {
+  width: 9em;
+}
+
+.paperTitle {
+  margin-left: 10%;
+  margin-right: 10%;
 }
