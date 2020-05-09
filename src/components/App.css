@@ -96,4 +96,30 @@ p.content {
 .paperTitle {
   margin-left: 10%;
   margin-right: 10%;
+  background-color: #282c34;
+  border-radius: 10px;
+}
+
+.iconFeature {
+  font-size: 5em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.textFeature {
+  opacity: 0;
+  font-size: 0em;
+  color: black;
+
+  border-radius: 30px;
+
+  transition: 0.5s;
+}
+
+.buttonFeature:hover .textFeature {
+  opacity: 1;
+
+  font-size: 2em;
+
+  transition: 1s;
 }
