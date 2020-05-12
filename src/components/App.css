@@ -128,3 +128,9 @@ p.content {
 .photos {
   margin-top: 20px;
 }
+
+.names a {
+  color: black;
+  text-decoration: none;
+  font-size: 2em;
+}

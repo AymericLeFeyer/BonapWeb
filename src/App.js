@@ -203,31 +203,41 @@ function App() {
       </Grid>
 
       <Content
-        content={[
-          "L'équipe de Bonap : Aymeric (gauche) et Quentin (droite) !",
-          "Clique sur eux pour en savoir plus",
-        ]}
+        content={["L'équipe de Bonap !", "Clique sur eux pour en savoir plus"]}
       />
 
-      <Grid container className="photos">
+      <Grid container className="names">
         <Grid item xs>
-          <Wow animation="fadeInLeft">
+          <Wow animation="fadeIn">
             <a
               href="https://www.linkedin.com/in/aymericlefeyer/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={aymeric} alt="Aymeric sur son PC" />
+              Aymeric LE FEYER
             </a>
           </Wow>
-          <Wow animation="fadeInRight">
+        </Grid>
+        <Grid item xs>
+          <Wow animation="fadeIn">
             <a
               href="https://www.linkedin.com/in/quentincarry/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={quentin} alt="Quentin sur son PC" />{" "}
+              Quentin CARRY
             </a>
+          </Wow>
+        </Grid>
+      </Grid>
+      <Grid container className="photos">
+        <Grid item xs>
+          <Wow animation="fadeInLeft">
+            <img src={aymeric} alt="Aymeric sur son PC" />
+          </Wow>
+
+          <Wow animation="fadeInRight">
+            <img src={quentin} alt="Quentin sur son PC" />
           </Wow>
         </Grid>
       </Grid>
