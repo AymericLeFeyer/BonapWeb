@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BonapWeb/precache-manifest.78dfc2efaf72eba4cbe0edc7c76148d7.js"
+  "/BonapWeb/precache-manifest.4344909250f3191f1da3e89e26dbb617.js"
 );
 
 self.addEventListener('message', (event) => {

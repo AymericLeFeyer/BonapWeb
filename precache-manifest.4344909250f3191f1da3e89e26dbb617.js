@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f09722480f5763ca081fc21058a532f0",
+    "revision": "b1a33c893e39439554d4b2c34afe8883",
     "url": "/BonapWeb/index.html"
   },
   {
-    "revision": "f9732d1062be0e6a3418",
-    "url": "/BonapWeb/static/css/main.859515bd.chunk.css"
+    "revision": "f470cc983516648c4b13",
+    "url": "/BonapWeb/static/css/main.07013600.chunk.css"
   },
   {
-    "revision": "a089617e0f730ad9a135",
-    "url": "/BonapWeb/static/js/2.3a512772.chunk.js"
+    "revision": "48da116093659585a463",
+    "url": "/BonapWeb/static/js/2.2055cf6c.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/BonapWeb/static/js/2.3a512772.chunk.js.LICENSE.txt"
+    "url": "/BonapWeb/static/js/2.2055cf6c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9732d1062be0e6a3418",
-    "url": "/BonapWeb/static/js/main.a50ee57c.chunk.js"
+    "revision": "f470cc983516648c4b13",
+    "url": "/BonapWeb/static/js/main.14639a0d.chunk.js"
   },
   {
     "revision": "820b927ddc503fb2b73a",
     "url": "/BonapWeb/static/js/runtime-main.1a0be7b8.js"
+  },
+  {
+    "revision": "4b10a0c7db8d84a01f52f7181f05d455",
+    "url": "/BonapWeb/static/media/aymericDos.4b10a0c7.jpg"
   },
   {
     "revision": "03d5249ae53462bc8e947213fca041f7",
@@ -46,5 +50,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2cf939357021890eaead95da888db5ff",
     "url": "/BonapWeb/static/media/playStore.2cf93935.png"
+  },
+  {
+    "revision": "9e45dd232c3f9f3dcd2c2d0403ad26f0",
+    "url": "/BonapWeb/static/media/quentinDos.9e45dd23.jpg"
   }
 ]);
