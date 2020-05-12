@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/BonapWeb/static/css/main.07013600.chunk.css",
+    "main.js": "/BonapWeb/static/js/main.14639a0d.chunk.js",
+    "main.js.map": "/BonapWeb/static/js/main.14639a0d.chunk.js.map",
+    "runtime-main.js": "/BonapWeb/static/js/runtime-main.1a0be7b8.js",
+    "runtime-main.js.map": "/BonapWeb/static/js/runtime-main.1a0be7b8.js.map",
+    "static/js/2.2055cf6c.chunk.js": "/BonapWeb/static/js/2.2055cf6c.chunk.js",
+    "static/js/2.2055cf6c.chunk.js.map": "/BonapWeb/static/js/2.2055cf6c.chunk.js.map",
+    "index.html": "/BonapWeb/index.html",
+    "precache-manifest.4344909250f3191f1da3e89e26dbb617.js": "/BonapWeb/precache-manifest.4344909250f3191f1da3e89e26dbb617.js",
+    "service-worker.js": "/BonapWeb/service-worker.js",
+    "static/css/main.07013600.chunk.css.map": "/BonapWeb/static/css/main.07013600.chunk.css.map",
+    "static/js/2.2055cf6c.chunk.js.LICENSE.txt": "/BonapWeb/static/js/2.2055cf6c.chunk.js.LICENSE.txt",
+    "static/media/aymericDos.jpg": "/BonapWeb/static/media/aymericDos.4b10a0c7.jpg",
+    "static/media/App.css": "/BonapWeb/static/media/bg.03d5249a.jpg",
+    "static/media/firebase.png": "/BonapWeb/static/media/firebase.772cd56e.png",
+    "static/media/flutter.png": "/BonapWeb/static/media/flutter.85afad5b.png",
+    "static/media/instagram.png": "/BonapWeb/static/media/instagram.5ffe3e02.png",
+    "static/media/logo.png": "/BonapWeb/static/media/logo.2f23732c.png",
+    "static/media/playStore.png": "/BonapWeb/static/media/playStore.2cf93935.png",
+    "static/media/quentinDos.jpg": "/BonapWeb/static/media/quentinDos.9e45dd23.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a0be7b8.js",
+    "static/js/2.2055cf6c.chunk.js",
+    "static/css/main.07013600.chunk.css",
+    "static/js/main.14639a0d.chunk.js"
+  ]
+}

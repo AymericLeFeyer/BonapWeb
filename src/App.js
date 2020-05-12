@@ -5,6 +5,8 @@ import flutter from "./res/flutter.png";
 import firebase from "./res/firebase.png";
 import playStore from "./res/playStore.png";
 import instagram from "./res/instagram.png";
+import aymeric from "./res/aymericDos.jpg";
+import quentin from "./res/quentinDos.jpg";
 
 import "./components/App.css";
 import "./bootstrap.min.css";
@@ -124,19 +126,34 @@ function App() {
       />
       <Title title="Fonctionalitées" icon={faList} />
       <Grid container spacing={2}>
-        <Feature text="Création d'ingrédients et de repas personnalisés" icon={faPlus} />
-        <Feature text="Gestion du menu pour plusieurs semaines à l'avance" icon={faCalendar} />
-        <Feature text="Création automatique d'une liste de course" icon={faShoppingCart} />
+        <Feature
+          text="Création d'ingrédients et de repas personnalisés"
+          icon={faPlus}
+        />
+        <Feature
+          text="Gestion du menu pour plusieurs semaines à l'avance"
+          icon={faCalendar}
+        />
+        <Feature
+          text="Création automatique d'une liste de course"
+          icon={faShoppingCart}
+        />
         <Feature text="Sauvegarde de vos menus sur le cloud" icon={faSave} />
-        <Feature text="Système de connexion avec prise en charge de l'authentification Google" icon={faSignInAlt} />
-        <Feature text="Thème sombre, mode végétarien, et bien plus !" icon={faCog} />
+        <Feature
+          text="Système de connexion avec prise en charge de l'authentification Google"
+          icon={faSignInAlt}
+        />
+        <Feature
+          text="Thème sombre, mode végétarien, et bien plus !"
+          icon={faCog}
+        />
       </Grid>
       <Title title="Connexion" icon={faSignInAlt} />
       <Content
         content={[
-          "Connectez vous a Bonap en vous creant un compte",
+          "Connectez vous à Bonap en vous creant un compte",
           "Vous pouvez aussi utiliser votre compte Google !",
-          "Cela vous permettra de sauvegarder vos repas et ingredients sur le cloud",
+          "Cela nous permettra de sauvegarder vos repas et ingrédients sur le cloud",
         ]}
       />
       <Title title="Technologies" icon={faCode} />
@@ -165,7 +182,7 @@ function App() {
         anim="lightSpeedIn"
         content={[
           "Bonap est disponible sur le Play Store",
-          "L'application possede egalement sa page Instagram",
+          "L'application possède également sa page Instagram",
         ]}
       />
       <Grid container className="links">
@@ -182,6 +199,36 @@ function App() {
             alt="Play Store"
             src={playStore}
           />
+        </Grid>
+      </Grid>
+
+      <Content
+        content={[
+          "L'équipe de Bonap : Aymeric (gauche) et Quentin (droite) !",
+          "Clique sur eux pour en savoir plus",
+        ]}
+      />
+
+      <Grid container className="photos">
+        <Grid item xs>
+          <Wow animation="fadeInLeft">
+            <a
+              href="https://www.linkedin.com/in/aymericlefeyer/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={aymeric} alt="Aymeric sur son PC" />
+            </a>
+          </Wow>
+          <Wow animation="fadeInRight">
+            <a
+              href="https://www.linkedin.com/in/quentincarry/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={quentin} alt="Quentin sur son PC" />{" "}
+            </a>
+          </Wow>
         </Grid>
       </Grid>
     </div>

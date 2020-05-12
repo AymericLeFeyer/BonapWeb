@@ -87,6 +87,7 @@ p.content {
   padding-left: 20%;
   padding-right: 20%;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .imgLink {
@@ -122,4 +123,8 @@ p.content {
   font-size: 2em;
 
   transition: 1s;
+}
+
+.photos {
+  margin-top: 20px;
 }
