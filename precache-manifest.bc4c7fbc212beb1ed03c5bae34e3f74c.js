@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1a33c893e39439554d4b2c34afe8883",
+    "revision": "7729ea02fbf9c7f4f7ce116b9188799c",
     "url": "/BonapWeb/index.html"
   },
   {
-    "revision": "f470cc983516648c4b13",
-    "url": "/BonapWeb/static/css/main.07013600.chunk.css"
+    "revision": "e8138a7411f767681097",
+    "url": "/BonapWeb/static/css/main.511d8d9f.chunk.css"
   },
   {
-    "revision": "48da116093659585a463",
-    "url": "/BonapWeb/static/js/2.2055cf6c.chunk.js"
+    "revision": "84290a158d4476822ac4",
+    "url": "/BonapWeb/static/js/2.2e913e94.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/BonapWeb/static/js/2.2055cf6c.chunk.js.LICENSE.txt"
+    "url": "/BonapWeb/static/js/2.2e913e94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f470cc983516648c4b13",
-    "url": "/BonapWeb/static/js/main.14639a0d.chunk.js"
+    "revision": "e8138a7411f767681097",
+    "url": "/BonapWeb/static/js/main.2cf70314.chunk.js"
   },
   {
     "revision": "820b927ddc503fb2b73a",
